@@ -256,8 +256,10 @@ button:active {
 /* LATEST */
 
 #latest {
-    height: 750px;
+    min-height: 750px;
+    padding-bottom: 80px; /* Extra space for separation */
 }
+
 
 .books {
     display: flex;
@@ -269,6 +271,19 @@ button:active {
     padding-top: 48px;
 }
 
-.latest__container {
-    padding-bottom: 96px;
+
+/* EXPLORE */
+
+.row__button {
+    text-align:center;
+}
+
+.explore__container {
+    padding: 56px 0;
+    background-color: rgba(115, 66, 214, 0.1);
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.564);
+}
+
+.explore__title {
+    padding-bottom: 48px;
 }
