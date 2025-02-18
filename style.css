@@ -93,6 +93,17 @@ html {
     text-decoration: none;
 }
 
+/* MOBILE BUTTON */
+
+.button__menu {
+    background-color: transparent;
+    font-size: 40px;
+    text-align: center;
+    border: none;
+    color: #7342d6;
+
+}
+
 /* LANDING */
 
 #landing {
