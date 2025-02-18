@@ -77,6 +77,8 @@ li {
 
 header {
     height: calc(100vh - 80px);
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.564);
+
 }
 
 .header__container {
@@ -134,6 +136,12 @@ button:active {
 
 .container {
     padding: 56px 0;
+}
+
+.featured__container {
+    padding: 56px 0;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.564);
+    height: 750px;
 }
 
 .row {
@@ -221,6 +229,7 @@ button:active {
 .book__title {
     font-size: 20px;
     margin-bottom: 8px;
+    text-align: center;
 }
 
 .book__title:hover {
@@ -231,10 +240,35 @@ button:active {
 .book__ratings {
     margin-bottom: 8px;
     color: #fabf2a;
+    text-align: center;
+}
+
+.book__price {
+    text-align: center;
 }
 
 .old__price {
     text-decoration: line-through;
     padding-right: 6px;
     color: #bfbfbf;
+}
+
+/* LATEST */
+
+#latest {
+    height: 750px;
+}
+
+.books {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.latest__section__title {
+    text-align: center;
+    padding-top: 48px;
+}
+
+.latest__container {
+    padding-bottom: 96px;
 }
