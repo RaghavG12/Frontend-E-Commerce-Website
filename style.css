@@ -236,6 +236,7 @@ button:active {
 
 .highlight__wrapper {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .highlight {
@@ -405,6 +406,7 @@ footer {
     color: #fff;
 }
 
+/* SMALL AND LARGE SMARTPHONES */
 @media (max-width: 550px) {
     .nav__links {
         display: none;
@@ -412,5 +414,39 @@ footer {
 
     .button__menu {
         display: block;
+    }
+}
+
+/* TABLETS*/
+@media (max-width: 768px) {
+    .header__description {
+        padding: 0 24px; 
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    h2 {
+        font-size: 26px;
+    }
+
+    button {
+        font-size: 18px;
+    }
+
+    .book {
+        width: 50%;
+    }
+
+    .books {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .highlight {
+        width: 100%;
+        margin-bottom: 24px;
     }
 }
